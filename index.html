@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+    <div id="container">
+
+
+        <img onclick="darkmode()" id="logo"
+            src="https://w7.pngwing.com/pngs/163/715/png-transparent-dark-mode-moon-night-forecast-weather-multimedia-solid-px-icon.png"
+            alt="logo1">
+
+
+
+        <input placeholder="0" type="text" id="display">
+
+
+        <div class="button">
+
+            <button onclick="allClear()" class="operator" data-value="AC">AC</button>
+            <button onclick="del()" class="operator" data-value="DEL">DEL</button>
+            <button class="operator" data-value="%">%</button>
+            <button class="operator" data-value="/">/</button>
+
+            <button class="number" data-value="7">7</button>
+            <button class="number" data-value="8">8</button>
+            <button class="number" data-value="9">9</button>
+            <button class="operator" data-value="*">*</button>
+
+            <button class="number" data-value="4">4</button>
+            <button class="number" data-value="5">5</button>
+            <button class="number" data-value="6">6</button>
+            <button class="operator"data-value="-">-</button>
+
+            <button class="number" data-value="1">1</button>
+            <button class="number" data-value="2">2</button>
+            <button class="number" data-value="3">3</button>
+            <button class="operator"data-value="+">+</button>
+
+            <button class="number" data-value="0">0</button>
+            <button class="number" data-value="00">00</button>
+            <button class="number" data-value=".">.</button>
+            <button class="number" onclick="equal()" style="background-color: rgb(251, 159, 1);"
+                data-value="=">=</button>
+
+
+
+
+        </div>
+
+
+
+    </div>
+
+</body>
+<script src="./index.js"></script>
+
+</html>
